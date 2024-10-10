@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name">Utadelicias</string>
     <string name="extitle">"ESTO ES UN TEXTO DE EJEMPLO."</string>
+    <string name="Press">Presioname</string>
 </resources>
