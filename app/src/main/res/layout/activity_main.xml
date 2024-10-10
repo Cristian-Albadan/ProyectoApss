@@ -8,16 +8,22 @@
     tools:context=".MainActivity">
 
     <TextView
-        android:id="@+id/tvtextoejemplo"
+        android:id="@+id/tvhelloword"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/extitle"
-        android:textColor="@color/black"
+        android:text="Hello World!"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.327" />
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/tvhelloword"
+        app:layout_constraintStart_toStartOf="parent"
+        android:text="@string/Press"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
